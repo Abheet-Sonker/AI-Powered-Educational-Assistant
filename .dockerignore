@@ -1,0 +1,45 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+myenv/
+
+# Environment variable files
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+*.out
+*.tmp
+
+# Jupyter notebooks (if not needed)
+*.ipynb
+
+# FAISS binary index files (only if rebuilt inside container)
+*.faiss
+*.hnsw
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# VSCode settings
+.vscode/
+
+# Docker-related
+Dockerfile
+docker-compose.yml
+dok
